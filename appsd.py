@@ -26,7 +26,7 @@ st.set_page_config(page_title='Inside AirBnB: San Diego Exploratory Data Analysi
 
 #-----Data Preprocessing-------------------------------------------------------
 url = 'https://github.com/llorenc-fer/San-Diego-EDA/blob/main/listings.csv'
-df = pd.read_csv(url, index_col='id')
+df = pd.read_csv(url, index_col='0')
 
 calendar = pd.read_csv(r'C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 2\20-Trabajo Módulo 2\San Diego Airbnb\calendar.csv.gz', 
                         compression='gzip', 
