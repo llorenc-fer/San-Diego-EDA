@@ -15,7 +15,6 @@ import gmaps.datasets
 gmaps.configure(api_key='AIzaSyA3zU5c-hozhhYLUZeioS0F45g498s8Lco')
 import streamlit as st
 import streamlit.components.v1 as components
-import geopandas as gpd
 import folium
 from folium.plugins import FastMarkerCluster
 from PIL import Image
