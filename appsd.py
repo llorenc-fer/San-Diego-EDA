@@ -22,13 +22,10 @@ import streamlit.components.v1 as components
 from unicodedata import name 
 
 #-----configuracion de página--------------------------------------------------------------------------
-
 st.set_page_config(page_title='Inside AirBnB: San Diego Exploratory Data Analysis', layout='centered', page_icon='🌇')
 
 #-----Data Preprocessing-------------------------------------------------------
-
-
-df = pd.read_csv(r'C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 2\20-Trabajo Módulo 2\San Diego Airbnb\listings.csv',
+df = pd.read_csv(r'https://github.com/llorenc-fer/San-Diego-EDA/blob/main/listings.csv',
                         index_col='id')
 
 calendar = pd.read_csv(r'C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 2\20-Trabajo Módulo 2\San Diego Airbnb\calendar.csv.gz', 
@@ -36,11 +33,6 @@ calendar = pd.read_csv(r'C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 
                         parse_dates=['date'],
                         index_col=['listing_id'],
                         low_memory=False)
-                        
-reviews = pd.read_csv(r'C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 2\20-Trabajo Módulo 2\San Diego Airbnb\reviews.csv.gz', 
-                        compression='gzip', 
-                        index_col=['listing_id'],
-                        )
 
 SDneighborhoods = json.load(open(r"C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 2\20-Trabajo Módulo 2\San Diego Airbnb\neighbourhoods (1).geojson"))                                                
 
