@@ -149,7 +149,6 @@ python-json-logger==2.0.4
 python-slugify==7.0.0
 pytz==2022.7
 pytz-deprecation-shim==0.1.0.post0
-pywinpty==2.0.9
 PyYAML==6.0
 pyzmq==24.0.1
 qbstyles==0.1.4
