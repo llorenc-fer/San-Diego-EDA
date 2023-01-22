@@ -33,7 +33,7 @@ calendar = pd.read_csv(r'C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 
                         parse_dates=['date'],
                         index_col=['listing_id'],
                         low_memory=False)
-url2 = https://github.com/llorenc-fer/San-Diego-EDA/blob/main/neighbourhoods%20(1).geojson
+url2 = 'https://github.com/llorenc-fer/San-Diego-EDA/blob/main/neighbourhoods%20(1).geojson'
 SDneighborhoods = json.load(open(url))                                                
 
 #drop unusable columns
