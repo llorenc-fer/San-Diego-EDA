@@ -217,15 +217,4 @@ watchdog==2.2.0
 wcwidth==0.2.5
 webcolors==1.12
 webencodings==0.5.1
-websocket-client==1.4.2
-websockets==10.4
-windows-curses==2.3.1
-wrapt==1.15.0rc1
-WTForms==3.0.1
-xlrd==2.0.1
-xmltodict==0.13.0
-yellowbrick==1.5
-yfinance==0.2.3
-zipp==3.11.0
-zope.event==4.6
-zope.interface==5.5.2
+
