@@ -25,16 +25,16 @@ from unicodedata import name
 st.set_page_config(page_title='Inside AirBnB: San Diego Exploratory Data Analysis', layout='centered', page_icon='🌇')
 
 #-----Data Preprocessing-------------------------------------------------------
-df = pd.read_csv(r'https://github.com/llorenc-fer/San-Diego-EDA/blob/main/listings.csv',
-                        index_col='id')
+url = 'https://github.com/llorenc-fer/San-Diego-EDA/blob/main/listings.csv'
+df = pd.read_csv(url, index_col='id')
 
 calendar = pd.read_csv(r'C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 2\20-Trabajo Módulo 2\San Diego Airbnb\calendar.csv.gz', 
                         compression='gzip', 
                         parse_dates=['date'],
                         index_col=['listing_id'],
                         low_memory=False)
-
-SDneighborhoods = json.load(open(r"C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 2\20-Trabajo Módulo 2\San Diego Airbnb\neighbourhoods (1).geojson"))                                                
+url2 = https://github.com/llorenc-fer/San-Diego-EDA/blob/main/neighbourhoods%20(1).geojson
+SDneighborhoods = json.load(open(url))                                                
 
 #drop unusable columns
 df = df.drop('neighbourhood_group', axis=1)
