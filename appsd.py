@@ -120,7 +120,7 @@ with tab_plots:
     st.image('https://cdn-cplbh.nitrocdn.com/jroJNRxstilajZJELUsnaEigEZqpBufL/assets/images/optimized/rev-af72e93/wp-content/uploads/2018/03/police-equipment-inventory-header.jpg')
     st.text("Image by Asset Panda")
     st.header('Crime by neighbourhood in San Diego')
-    image = Image.open(r'C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 2\20-Trabajo Módulo 2\San Diego Airbnb\SDCrimerate.jpg')
+    image = Image.open('SDCrimerate.jpg')
     st.image(image)
     st.markdown("San Diego has a relatively low overall crime rate compared to other major US cities.")
     st.markdown("Property crimes such as burglary and theft tend to be the most common types of crime.")
