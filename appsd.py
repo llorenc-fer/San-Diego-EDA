@@ -30,7 +30,7 @@ st.set_page_config(page_title='Inside AirBnB: San Diego Exploratory Data Analysi
 st.image('https://i0.wp.com/christ-pres.church/wp-content/uploads/2018/07/sandiego-header.jpg?ssl=1')
 st.text("San Diego skyline, image from Christ Church Presbyterian")
 st.title("Exploring San Diego's AirBnB data")
-st.image('https://m.media-amazon.com/images/I/71yuxW9lM9L._AC_SL1050_.jpg')
+
 
 
 
@@ -39,6 +39,7 @@ tabs = st.tabs(["City Overview","Exploring San Diego's Neighborhoods", "Price Da
 
 #---------City Overview----------------------
 tab_plots = tabs[0]
+st.image('https://m.media-amazon.com/images/I/71yuxW9lM9L._AC_SL1050_.jpg')
 #-----columnas-----------------------------------------------------------------------------------------
 col1, col2 = st.columns(2)
 
