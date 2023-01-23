@@ -32,6 +32,13 @@ st.text("San Diego skyline, image from Christ Church Presbyterian")
 st.title("Exploring San Diego's AirBnB data")
 st.image('https://m.media-amazon.com/images/I/71yuxW9lM9L._AC_SL1050_.jpg')
 
+
+
+#-----configuracion de tablas---------------------------------------------------------------------------
+tabs = st.tabs(["City Overview","Exploring San Diego's Neighborhoods", "Price Data Exploration", "Crime Rate in San Diego"])
+
+#---------City Overview----------------------
+tab_plots = tabs[0]
 #-----columnas-----------------------------------------------------------------------------------------
 col1, col2 = st.columns(2)
 
@@ -43,12 +50,8 @@ with col1:
 with col2:
 
     st.image('https://st2.depositphotos.com/2670707/10754/i/950/depositphotos_107544286-stock-photo-san-diego-in-california-usa.jpg')
-
-#-----configuracion de tablas---------------------------------------------------------------------------
-tabs = st.tabs(["Exploring San Diego's Neighborhoods", "Price Data Exploration", "Crime Rate in San Diego"])
-
 #-----tabla 1-----------
-tab_plots = tabs[0]
+tab_plots = tabs[1]
 with tab_plots:        
     st.image('https://secretsandiego.com/wp-content/uploads/2022/10/sd-header-wp-1024x478.jpg')
     st.text("")
@@ -84,7 +87,7 @@ with tab_plots:
     
 
 #-----tabla 2-----------
-tab_plots = tabs[1]
+tab_plots = tabs[2]
 
 with tab_plots:        
     st.image('https://149361101.v2.pressablecdn.com/wp-content/uploads/2019/12/beach-resort-san-diego-bay-sun-set.jpg')
@@ -115,7 +118,7 @@ with tab_plots:
 
 
 #-----tabla 3-----------
-tab_plots = tabs[2]
+tab_plots = tabs[3]
 with tab_plots:
     st.image('https://cdn-cplbh.nitrocdn.com/jroJNRxstilajZJELUsnaEigEZqpBufL/assets/images/optimized/rev-af72e93/wp-content/uploads/2018/03/police-equipment-inventory-header.jpg')
     st.text("Image by Asset Panda")
