@@ -108,12 +108,15 @@ with tab_plots:
     html = open("averaigeairbnbpricebyneighbourhood.html", "r", encoding='utf-8').read()
     st.components.v1.html(html,height=600)
 with tab_plots: 
+    st.markdown("Unsurprisingly, shared rooms rank among the cheapest type")
     html = open("roomtypeperneighbourhoodbyprice.html", "r", encoding='utf-8').read()
     st.components.v1.html(html,height=600)
 with tab_plots: 
+    st.markdown("Listing density by neighborhood")
     html = open("choropleth.html", "r", encoding='utf-8').read()
     st.components.v1.html(html,height=600)
 with tab_plots:
+    st.markdown("All San Diego Airbnb listings by geographic position")
     html = open("robertomap.html", "r", encoding='utf-8').read()
     st.components.v1.html(html,height=600)
     st.text("Map by Roberto Herguedas, all rights reserved.")
