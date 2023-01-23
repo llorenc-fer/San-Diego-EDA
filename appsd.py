@@ -74,8 +74,8 @@ with tab_plots:
     st.components.v1.html(html,height=600)
 with tab_plots: 
     st.markdown("Visual representation of listings per neighbourhood")
-    html = open("treemap.html", "r", encoding='utf-8').read()
-    st.components.v1.html(html,height=600)
+    image = Image.open('treemap.jpg')
+    st.image(image)
 with tab_plots: 
     st.write("Exploring the most popular neighbourhoods in San Diego:")
     st.write("The median home value in Del Mar Heights is $1.1 million, 497% higher than the national average.")
