@@ -49,9 +49,9 @@ with col1:
     st.text('Postcard by Amazon')
     st.text('Map by Depositphotos')
 with col2:
-
-    st.image('https://st2.depositphotos.com/2670707/10754/i/950/depositphotos_107544286-stock-photo-san-diego-in-california-usa.jpg')
-#-----tabla 1-----------
+    st.image('https://st2.depositphotos.com/2670707/10754/i/950/depositphotos_107544286-stock-photo-san-diego-in-california-usa.jpg')  
+    
+#-----tabla 1: Exploring San Diego's Neighborhoods-----------
 tab_plots = tabs[1]
 with tab_plots:        
     st.image('https://secretsandiego.com/wp-content/uploads/2022/10/sd-header-wp-1024x478.jpg')
@@ -87,7 +87,7 @@ with tab_plots:
     st.components.v1.html(html,height=600)
     
 
-#-----tabla 2-----------
+#-----tabla 2: Price Data Exploration-----------
 tab_plots = tabs[2]
 
 with tab_plots:        
@@ -118,7 +118,7 @@ with tab_plots:
     st.text("Map by Roberto Herguedas, all rights reserved.")
 
 
-#-----tabla 3-----------
+#-----tabla 3: Crime Rate in San Diego-----------
 tab_plots = tabs[3]
 with tab_plots:
     st.image('https://cdn-cplbh.nitrocdn.com/jroJNRxstilajZJELUsnaEigEZqpBufL/assets/images/optimized/rev-af72e93/wp-content/uploads/2018/03/police-equipment-inventory-header.jpg')
