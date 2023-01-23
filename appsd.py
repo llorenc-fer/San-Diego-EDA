@@ -39,17 +39,18 @@ tabs = st.tabs(["City Overview","Exploring San Diego's Neighborhoods", "Price Da
 
 #---------City Overview----------------------
 tab_plots = tabs[0]
-st.image('https://m.media-amazon.com/images/I/71yuxW9lM9L._AC_SL1050_.jpg')
+with tab_plots:   
+    st.image('https://m.media-amazon.com/images/I/71yuxW9lM9L._AC_SL1050_.jpg')
 #-----columnas-----------------------------------------------------------------------------------------
-col1, col2 = st.columns(2)
+    col1, col2 = st.columns(2)
 
-with col1:
-    st.markdown("Welcome to San Diego:")
-    st.markdown("A vibrant and welcoming city in Southern California with a gorgeous coastline, warm climate and a rich hispanic heritage.")
-    st.text('Postcard by Amazon')
-    st.text('Map by Depositphotos')
-with col2:
-    st.image('https://st2.depositphotos.com/2670707/10754/i/950/depositphotos_107544286-stock-photo-san-diego-in-california-usa.jpg')  
+    with col1:
+        st.markdown("Welcome to San Diego:")
+        st.markdown("A vibrant and welcoming city in Southern California with a gorgeous coastline, warm climate and a rich hispanic heritage.")
+        st.text('Postcard by Amazon')
+        st.text('Map by Depositphotos')
+    with col2:
+        st.image('https://st2.depositphotos.com/2670707/10754/i/950/depositphotos_107544286-stock-photo-san-diego-in-california-usa.jpg')  
     
 #-----tabla 1: Exploring San Diego's Neighborhoods-----------
 tab_plots = tabs[1]
