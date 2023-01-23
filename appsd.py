@@ -24,7 +24,7 @@ from unicodedata import name
 
 #-----configuracion de página--------------------------------------------------------------------------
 
-st.set_page_config(page_title='Inside AirBnB: San Diego Exploratory Data Analysis', layout='centered', page_icon='🌇')
+st.set_page_config(page_title='Inside AirBnB: San Diego Exploratory Data Analysis', layout='centered', page_icon='☀️')
 
 #-----empieza la app-----------------------------------------------------------------------------------
 st.image('https://i0.wp.com/christ-pres.church/wp-content/uploads/2018/07/sandiego-header.jpg?ssl=1')
