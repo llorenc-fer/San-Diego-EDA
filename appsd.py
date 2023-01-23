@@ -96,7 +96,7 @@ with tab_plots:
     st.components.v1.html(html,height=600)
 with tab_plots:
     st.markdown("Specific mean by neighbourhood: a trend confirmed")
-    image = Image.open(r'C:\Users\lluri\Documents\samplerepo\Upgrade Hub\Modulo 2\20-Trabajo Módulo 2\San Diego Airbnb\newplot.png')
+    image = Image.open('newplot.png')
     st.image(image)
 with tab_plots: 
     st.markdown("Most expensive top 10 neighbours are coastal and centric")
